@@ -28,37 +28,36 @@ It supports **real-time streaming responses** via **Server-Sent Events (SSE)** a
 
 SnakesLucifer/
 ├── nimbus-chat-backend/
-│ ├── server.js
-│ ├── routes/
-│ │ └── chat.js
-│ ├── services/
-│ │ └── geminiService.js
-│ ├── models/
-│ │ ├── Message.js
-│ │ ├── Session.js
-│ │ └── User.js
-│ ├── middleware/
-│ │ ├── auth.js
-│ │ ├── rateLimiter.js
-│ │ └── safetyCheck.js
-│ ├── package.json
-│ └── .env
+│   ├── server.js
+│   ├── routes/
+│   │   └── chat.js
+│   ├── services/
+│   │   └── geminiService.js
+│   ├── models/
+│   │   ├── Message.js
+│   │   ├── Session.js
+│   │   └── User.js
+│   ├── middleware/
+│   │   ├── auth.js
+│   │   ├── rateLimiter.js
+│   │   └── safetyCheck.js
+│   ├── package.json
+│   └── .env
 │
 └── nimbus-chat-frontend/
-├── src/
-│ ├── components/
-│ │ ├── ChatWindow.jsx
-│ │ ├── MessageBubble.jsx
-│ │ └── ProviderSelector.jsx
-│ ├── api/chatApi.js
-│ ├── App.jsx
-│ ├── index.js
-│ └── styles.css
-├── package.json
-└── .env
+    ├── src/
+    │   ├── components/
+    │   │   ├── ChatWindow.jsx
+    │   │   ├── MessageBubble.jsx
+    │   │   └── ProviderSelector.jsx
+    │   ├── api/
+    │   │   └── chatApi.js
+    │   ├── App.jsx
+    │   ├── index.js
+    │   └── styles.css
+    ├── package.json
+    └── .env
 
-yaml
-Copy code
 
 ---
 
